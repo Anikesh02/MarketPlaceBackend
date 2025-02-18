@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: "https://market-place-frontend-eight.vercel.app", // Allow requests from this origin
+  origin: "https://market-place-frontend-p7cd.vercel.app", // Allow requests from this origin
   credentials: true
 }));
 
