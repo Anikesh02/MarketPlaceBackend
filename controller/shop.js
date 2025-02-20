@@ -39,7 +39,7 @@ router.post("/create-shop", catchAsyncErrors(async (req, res, next) => {
 
     const activationToken = createActivationToken(seller);
 
-    const activationUrl = `https://market-place-frontend-eight.vercel.app/seller/activation/${activationToken}`;
+    const activationUrl = `https://market-place-frontend-8hfwoma4m-anikesh02s-projects.vercel.app/seller/activation/${activationToken}`;
     
     try {
       await sendMail({
